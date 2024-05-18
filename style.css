@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Dark gray text for readability */
+  }
+  
+  h1, h2 {
+    text-align: center;
+    margin: 10px 0; /* Adjust top and bottom margins */
+    font-size: 2em; /* Set a larger font size for headings */
+  }
+  
+  /* Add Expense Section */
+  #add-expense {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for contrast */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Bold labels for better emphasis */
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  button:hover {
+    background-color: #3e8e41; /* Darker green on hover */
+  }
+  
+  /* Expenses Section */
+  #expenses {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff; /* White background for contrast */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif; /* Consistent font */
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* Style table rows for alternating colors (zebra striping) */
+  tr:nth-child(even) {
+    background-color: #fafafa; /* Light gray for even rows */
+  }
+  
